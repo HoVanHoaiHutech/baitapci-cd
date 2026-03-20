@@ -1,0 +1,34 @@
+﻿# version: '3.8'
+
+services:
+  # Service ứng dụng Web C#
+  xinchaodocker:
+    # build: 
+    #   context: ./xinchaodocker
+    #   dockerfile: Dockerfile # Nếu bạn có Dockerfile riêng cho ứng dụng, bỏ comment và chỉ định đường dẫn
+    image: noisyboy134/xinchaodocker:v1 # Sử dụng image đã build sẵn
+    container_name: hoai_webapp
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080 # Cấu hình ứng dụng lắng nghe trên cổng 8080
+    ports:
+      - "8080:8080" # Ánh xạ cổng 8080 ra ngoài máy thật (có thể đổi nếu .NET cấu hình port khác)
+    depends_on:
+      - db # Đảm bảo DB chạy trước khi Web chạy
+
+  # Service Database MySQL (giữ nguyên)
+  db:
+    image: mysql:8.0
+    container_name: mysql_server
+    restart: always
+    environment:
+        MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+        MYSQL_DATABASE: hoai
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql #giả sử chưa có db, tạo db giả
+
+volumes:
+  mysql_data:

@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hohoa_a97i0uf\\OneDrive\\Desktop\\contact-list-winforms\\xinchaodocker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\users\\hohoa_a97i0uf\\onedrive\\desktop\\contact-list-winforms\\xinchaodocker\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58EEE40E-67CE-4C92-9197-DCAB2A22C423}|xinchaodocker\\xinchaodocker.csproj|c:\\users\\hohoa_a97i0uf\\onedrive\\desktop\\contact-list-winforms\\xinchaodocker\\xinchaodocker\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{58EEE40E-67CE-4C92-9197-DCAB2A22C423}|xinchaodocker\\xinchaodocker.csproj|solutionrelative:xinchaodocker\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\users\\hohoa_a97i0uf\\onedrive\\desktop\\contact-list-winforms\\xinchaodocker\\init.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:init.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58EEE40E-67CE-4C92-9197-DCAB2A22C423}|xinchaodocker\\xinchaodocker.csproj|c:\\users\\hohoa_a97i0uf\\onedrive\\desktop\\contact-list-winforms\\xinchaodocker\\xinchaodocker\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58EEE40E-67CE-4C92-9197-DCAB2A22C423}|xinchaodocker\\xinchaodocker.csproj|solutionrelative:xinchaodocker\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58EEE40E-67CE-4C92-9197-DCAB2A22C423}|xinchaodocker\\xinchaodocker.csproj|c:\\users\\hohoa_a97i0uf\\onedrive\\desktop\\contact-list-winforms\\xinchaodocker\\xinchaodocker\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58EEE40E-67CE-4C92-9197-DCAB2A22C423}|xinchaodocker\\xinchaodocker.csproj|solutionrelative:xinchaodocker\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58EEE40E-67CE-4C92-9197-DCAB2A22C423}|xinchaodocker\\xinchaodocker.csproj|c:\\users\\hohoa_a97i0uf\\onedrive\\desktop\\contact-list-winforms\\xinchaodocker\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{58EEE40E-67CE-4C92-9197-DCAB2A22C423}|xinchaodocker\\xinchaodocker.csproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "init.sql",
+              "DocumentMoniker": "C:\\Users\\hohoa_a97i0uf\\OneDrive\\Desktop\\contact-list-winforms\\xinchaodocker\\init.sql",
+              "RelativeDocumentMoniker": "init.sql",
+              "ToolTip": "C:\\Users\\hohoa_a97i0uf\\OneDrive\\Desktop\\contact-list-winforms\\xinchaodocker\\init.sql",
+              "RelativeToolTip": "init.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-03-19T17:01:33.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\hohoa_a97i0uf\\OneDrive\\Desktop\\contact-list-winforms\\xinchaodocker\\xinchaodocker\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "xinchaodocker\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\hohoa_a97i0uf\\OneDrive\\Desktop\\contact-list-winforms\\xinchaodocker\\xinchaodocker\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "xinchaodocker\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T15:32:51.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\hohoa_a97i0uf\\OneDrive\\Desktop\\contact-list-winforms\\xinchaodocker\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\hohoa_a97i0uf\\OneDrive\\Desktop\\contact-list-winforms\\xinchaodocker\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-03-19T15:11:13.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\Users\\hohoa_a97i0uf\\OneDrive\\Desktop\\contact-list-winforms\\xinchaodocker\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "C:\\Users\\hohoa_a97i0uf\\OneDrive\\Desktop\\contact-list-winforms\\xinchaodocker\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-13T03:33:05.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hohoa_a97i0uf\\OneDrive\\Desktop\\contact-list-winforms\\xinchaodocker\\xinchaodocker\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "xinchaodocker\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hohoa_a97i0uf\\OneDrive\\Desktop\\contact-list-winforms\\xinchaodocker\\xinchaodocker\\Pages\\Index.cshtml",
+              "RelativeToolTip": "xinchaodocker\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T03:09:19.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\hohoa_a97i0uf\\OneDrive\\Desktop\\contact-list-winforms\\xinchaodocker\\xinchaodocker\\Dockerfile",
+              "RelativeDocumentMoniker": "xinchaodocker\\Dockerfile",
+              "ToolTip": "C:\\Users\\hohoa_a97i0uf\\OneDrive\\Desktop\\contact-list-winforms\\xinchaodocker\\xinchaodocker\\Dockerfile",
+              "RelativeToolTip": "xinchaodocker\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-13T03:09:10.881Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 648,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
