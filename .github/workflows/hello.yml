@@ -1,19 +1,31 @@
-name: Thử nghiệm đọc file README    #Tên quy trình
+name: Deploy to Docker Hub
 
+# Chạy quy trình này khi có code push lên nhánh main
 on:
   push:
-    branches: [ "main" ]            #Chạy khi có code mới đẩy lên nhánh main
+    branches: [ "main" ]
 
 jobs:
-  thuc_hanh_doc_file:
-    runs-on: ubuntu-latest          #Mượn máy ảo Ubuntu của GitHub để chạy
+  build-and-push:
+    runs-on: ubuntu-latest
 
     steps:
-    - name: Bước 1 - Xin chào
-      run: echo "Hello HUTECH!"     #Lệnh in ra màn hình
+    # 1. Action lấy code từ Github
+    - name: Checkout
+      uses: actions/checkout@v4
 
-    - name: Bước 2 - Tải code
-      uses: actions/checkout@v6     #Robot tự động copy code vào máy ảo
+    # 2. Action Đăng nhập Docker Hub (sử dụng Secrets đã tạo ở Bước 1)
+    - name: Login to Docker Hub
+      uses: docker/login-action@v4
+      with:
+        username: ${{ secrets.DOCKERHUB_USERNAME }}
+        password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-    - name: Bước 3 - Đọc file
-      run: cat README.md            #Mở nội dung file README.md để xem
+    # 3. Action Đóng gói & Đẩy Image (Sử dụng tags như yêu cầu)
+    - name: Build and push Docker images
+      uses: docker/build-push-action@v7
+      with:
+        context: .
+        push: true
+        # Thay 'xinchaodocker' bằng tên repository bạn vừa tạo trên Docker Hub
+        tags: ${{ secrets.DOCKERHUB_USERNAME }}/xinchaodocker:latest
