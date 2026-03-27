@@ -5,6 +5,8 @@ builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
+app.MapGet("/env", (IHostEnvironment env) => $"Environment: {env.EnvironmentName}");
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
