@@ -9,7 +9,7 @@ services:
     image: noisyboy134/xinchaodocker:v1 # Sử dụng image đã build sẵn
     container_name: hoai_webapp
     environment:
-      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_ENVIRONMENT=Production
       - ASPNETCORE_URLS=http://+:8080 # Cấu hình ứng dụng lắng nghe trên cổng 8080
     ports:
       - "8080:8080" # Ánh xạ cổng 8080 ra ngoài máy thật (có thể đổi nếu .NET cấu hình port khác)
