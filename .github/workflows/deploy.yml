@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Triển khai lên DevOps Classroom
         run: |
-          REPO="noisyboy134/noisyboy134"
+          REPO="noisyboy134/xinchaodocker-s3"
           CONTAINER_PORT=80
           RESPONSE=$(curl -sS -w "\n%{http_code}" -X POST "${{ secrets.DEPLOY_URL }}?repo=$REPO&tag=latest&slot=3&container_port=$CONTAINER_PORT&strict_container_port=0")
           BODY=$(echo "$RESPONSE" | sed '$d')
