@@ -11,7 +11,7 @@ jobs:
     steps:
       # --- BẠN CÓ THỂ THÊM CÁC BƯỚC BUILD/PUSH DOCKER Ở ĐÂY NẾU CẦN ---
       
-      - name: Triển khai lên DevOps Classroom
+            - name: Triển khai lên DevOps Classroom
         run: |
           REPO="noisyboy134/xinchaodocker"
           CONTAINER_PORT=80
